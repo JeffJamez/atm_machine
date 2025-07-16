@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_marginTop="80dp"
+    android:background="@color/background_primary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Balance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Holder"
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_account_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_account_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account: 1234567890"
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Balance"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_current_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ksh0.00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_last_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last updated: Jan 15, 2025 at 10:30 AM"
+        android:textSize="12sp"
+        android:textColor="@color/secondary_text"
+        android:layout_gravity="center" />
+
+</LinearLayout>
